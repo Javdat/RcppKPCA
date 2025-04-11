@@ -163,6 +163,7 @@ plot(optimal_projected, col = classes, pch = 19,
 
 par(mfrow = c(1, 1))
 ```
+![optimal_gamma](https://github.com/user-attachments/assets/4c13230e-6de7-4121-bd8b-bced3a967530)
 
 ### Step 3: Enhanced Visualization with Decision Boundaries
 
@@ -184,6 +185,7 @@ plot_kpca(optimal_kpca, X, classes,
           palette = custom_palette,
           main = "KPCA with Custom Color Palette")
 ```
+![optimal_gamma_2](https://github.com/user-attachments/assets/0010f057-aba7-4e75-845a-6609ed76af8b)
 
 ### Step 4: Comparison with and without Data Scaling
 
@@ -307,6 +309,7 @@ kpca_circles <- fastKPCA(X_circles, gamma = circles_gamma,
 plot_kpca(kpca_circles, X_circles, classes_circles,
           main = paste("KPCA Projection of Concentric Circles (gamma =", circles_gamma, ")"))
 ```
+![circles](https://github.com/user-attachments/assets/7fb39d98-acae-41eb-afcc-5a314c862211)
 
 ## Performance Comparison
 
